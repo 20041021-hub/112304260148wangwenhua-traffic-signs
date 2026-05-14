@@ -1,4 +1,22 @@
-# Traffic Sign Detection Challenge
+# 交通标志检测 —— YOLOv8 系列模型实验
+
+> **姓名：王文华 &nbsp;&nbsp; 学号：112304260148 &nbsp;&nbsp; 班级：数据1231**
+
+---
+
+## 实验概述
+
+本项目使用 YOLOv8 系列目标检测模型（v8n / v8s / v8m）完成交通标志检测任务，共经历三轮迭代优化，最终 mAP50 达到 **0.979**。
+
+| 轮次 | 模型 | 输入尺寸 | mAP50 | 提交分数 | 推理方式 |
+|:----:|------|:------:|:-----:|:------:|------|
+| 1 | YOLOv8n | 640 | 0.955 | 0.897691 | 普通推理 |
+| 2 | YOLOv8s | 640 | 0.974 | 0.972114 | TTA |
+| 3 | YOLOv8m | 960 | **0.979** | 待提交 | TTA |
+
+完整实验报告见：[第四次实验报告.md](第四次实验报告.md)
+
+---
 
 ## Task
 Train an object detection model with the provided YOLO dataset and predict objects on the hidden-label test set.
