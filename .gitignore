@@ -1,0 +1,30 @@
+# Model weights - download from ultralytics
+*.pt
+
+# Dataset files - too large for GitHub
+train/
+val/
+test/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ultralytics cache
+*.cache
