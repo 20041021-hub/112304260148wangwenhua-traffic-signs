@@ -101,7 +101,7 @@ yolo detect train data=data.yaml model=yolov8m.pt epochs=100 imgsz=960 batch=4 d
 
 - 本地验证结果（v8m）：mAP50 = 0.979，mAP50-95 = 0.758
 - YOLOv8s + TTA 提交分数：mAP50 = 0.972114
-- YOLOv8m + TTA 提交分数：（待提交）
+- YOLOv8m + TTA 提交分数：0.973509
 
 请简要说明：
 
